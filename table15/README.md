@@ -1,7 +1,7 @@
 # India-Police-Hackathon-2019
 
 
-Synopsis.txt has the entire synopsis of the project <br/>
+facial recognition for missing person.txt has the entire synopsis of the project <br/>
 
 # HOW TO RUN <br/>
 The manin.ipynb file has the entire code for training and testing
