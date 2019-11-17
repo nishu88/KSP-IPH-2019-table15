@@ -1,0 +1,147 @@
+<meta charset="utf-8" />
+<style>
+    #employees {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #employees td, #employees th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #employees td {
+        height: 100px;
+    }
+
+    #employees tbody:nth-child(even){
+        background-color: #f2f2f2;
+    }
+
+    #employees th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #12db00;
+        color: white;
+    }
+
+
+    #employees .hasTooltipleft span {
+        visibility: hidden;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        left:15%;
+        z-index: 1;
+
+    }
+
+    #employees .hasTooltipcenterleft span {
+        visibility: hidden;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        left:20%;
+        z-index: 1;
+
+    }
+
+    #employees .hasTooltipcenterright span {
+        visibility: hidden;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        left:25%;
+        z-index: 1;
+
+    }
+
+    #employees .hasTooltipright span {
+        visibility: hidden;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        left:30%;
+        z-index: 1;
+
+    }
+
+    #employees .hasTooltipfarright span {
+        visibility: hidden;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        left:35%;
+        z-index: 1;
+
+    }
+
+    #employees .hasTooltipleft:hover span {
+        visibility: visible;
+    }
+
+    #employees .hasTooltipcenterleft:hover span {
+        visibility: visible;
+    }
+
+    #employees .hasTooltipcenterright:hover span {
+        visibility: visible;
+    }
+
+    #employees .hasTooltipright:hover span {
+        visibility: visible;
+    }
+
+    #employees .hasTooltipfarright:hover span {
+        visibility: visible;
+    }
+
+    #employees tbody:hover {
+        background-color: #aaa;
+    }
+}
+
+</style>
+<center><table id="employees">
+            <tr>
+                <th rowspan="2">Photo</th>
+                <th rowspan="2">Name</th>
+                <th>LinkedIn</th>
+                <th>Facebook</th>
+                <th>Twitter</th>
+                <th>Instagram</th>
+            </tr>
+            <tr>
+                <th>-</th>
+                <th>VKontakte</th>
+                <th>Weibo</th>
+                <th>Douban</th>
+            </tr>
+             <tbody><tr><td class="hasTooltipleft" rowspan="2"><img src="../img/Mark Zukerburg.jpeg" width=auto height=auto style="max-width:200px; max-height:200px;"><span>../img/Mark Zukerburg.jpeg</span></td><td rowspan="2">Mark Zukerburg</td><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>LinkedIn:<br></span></a></td><td class="hasTooltipcenterright"><a href="https://www.facebook.com/zuck?ref=br_rs"><img src="https://scontent.fhyd12-1.fna.fbcdn.net/v/t34.0-1/p74x74/16176889_112685309244626_578204711_n.jpg?_nc_cat=1&_nc_oc=AQmasGSZEK3Nhxn1Mk8zP0WYsfIxxpcHrSMYMKdpj_uKK1KoXi1w1rB79HT112qk0UY&_nc_ht=scontent.fhyd12-1.fna&oh=4a7bff87a98f115e31c8673c907b9754&oe=5DD276C6" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Facebook:<br>https://www.facebook.com/zuck?ref=br_rs</span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Twitter:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Instagram:<br></span></a></td></tr><tr><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>-:<br></span></a></td><td class="hasTooltipcenterright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>VKontakte:<br></span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Weibo:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Douban:<br></span></a></td></tr></tbody><tbody><tr><td class="hasTooltipleft" rowspan="2"><img src="../img/Noor Mohammed.jpg" width=auto height=auto style="max-width:200px; max-height:200px;"><span>../img/Noor Mohammed.jpg</span></td><td rowspan="2">Noor Mohammed</td><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>LinkedIn:<br></span></a></td><td class="hasTooltipcenterright"><a href="https://www.facebook.com/profile.php?id=100006606484947&ref=br_rs"><img src="https://scontent.fhyd12-1.fna.fbcdn.net/v/t1.0-1/p74x74/72912638_2511044645792394_8783834120393326592_n.jpg?_nc_cat=106&_nc_oc=AQlKlMxrbBZEWAzdlG4Qx_RJI-w8f586TnkQRu4qaaOkNrHovIIBj_Rw7zNMJPCYq34&_nc_ht=scontent.fhyd12-1.fna&oh=7edb7166ad63290b74f7b18d06d96e19&oe=5E5AA878" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Facebook:<br>https://www.facebook.com/profile.php?id=100006606484947&ref=br_rs</span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Twitter:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Instagram:<br></span></a></td></tr><tr><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>-:<br></span></a></td><td class="hasTooltipcenterright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>VKontakte:<br></span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Weibo:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Douban:<br></span></a></td></tr></tbody><tbody><tr><td class="hasTooltipleft" rowspan="2"><img src="../img/Nishanth.jpeg" width=auto height=auto style="max-width:200px; max-height:200px;"><span>../img/Nishanth.jpeg</span></td><td rowspan="2">Nishanth</td><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>LinkedIn:<br></span></a></td><td class="hasTooltipcenterright"><a href="https://www.facebook.com/nishanthdilip.aluhonnu?ref=br_rs"><img src="https://scontent.fhyd12-1.fna.fbcdn.net/v/t1.0-1/p74x74/67366729_2267025383352487_9175929853872963584_o.jpg?_nc_cat=110&_nc_oc=AQnEMUu1_zNcx5HdleNfBGSHUFsiGkwrh9HXmNcEzyTABw-h6Kvk_B3cF4JO6-gue9c&_nc_ht=scontent.fhyd12-1.fna&oh=4ea26da5e27015aa4e9ff4ac55f8b28a&oe=5E408848" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Facebook:<br>https://www.facebook.com/nishanthdilip.aluhonnu?ref=br_rs</span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Twitter:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Instagram:<br></span></a></td></tr><tr><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>-:<br></span></a></td><td class="hasTooltipcenterright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>VKontakte:<br></span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Weibo:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Douban:<br></span></a></td></tr></tbody><tbody><tr><td class="hasTooltipleft" rowspan="2"><img src="../img/Swamya.jpg" width=auto height=auto style="max-width:200px; max-height:200px;"><span>../img/Swamya.jpg</span></td><td rowspan="2">Swamya</td><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>LinkedIn:<br></span></a></td><td class="hasTooltipcenterright"><a href="https://www.facebook.com/putti.b?ref=br_rs"><img src="https://scontent.fhyd12-1.fna.fbcdn.net/v/t1.0-1/p74x74/21751351_508750976157873_3621188092986702555_n.jpg?_nc_cat=106&_nc_oc=AQmw0DOGMWSxR_xvom9lenYoE-uW4XfOlbYMxTCn4JVgGPPlLAaGvw6gC8lHlZeGwyc&_nc_ht=scontent.fhyd12-1.fna&oh=ac404349dd7f88c5cfa81ff4ed454213&oe=5E46DDF6" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Facebook:<br>https://www.facebook.com/putti.b?ref=br_rs</span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Twitter:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Instagram:<br></span></a></td></tr><tr><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>-:<br></span></a></td><td class="hasTooltipcenterright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>VKontakte:<br></span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Weibo:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Douban:<br></span></a></td></tr></tbody><tbody><tr><td class="hasTooltipleft" rowspan="2"><img src="../img/Rajat Keshri.jpeg" width=auto height=auto style="max-width:200px; max-height:200px;"><span>../img/Rajat Keshri.jpeg</span></td><td rowspan="2">Rajat Keshri</td><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>LinkedIn:<br></span></a></td><td class="hasTooltipcenterright"><a href="https://www.facebook.com/profile.php?id=100008805553805&ref=br_rs"><img src="https://scontent.fhyd12-1.fna.fbcdn.net/v/t31.0-1/c0.12.74.74a/p74x74/16587314_1656740434629459_2225326435634181678_o.jpg?_nc_cat=111&_nc_oc=AQn-I1T3HfIRIxz9klr0oIW1G1pNUw1LpdHWbAW8XqeIQfT-lyx3vbSeYoWAyzw_Uh8&_nc_ht=scontent.fhyd12-1.fna&oh=7ea54e0aad77fc532ca74fd78b0964e8&oe=5E478A30" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Facebook:<br>https://www.facebook.com/profile.php?id=100008805553805&ref=br_rs</span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Twitter:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Instagram:<br></span></a></td></tr><tr><td class="hasTooltipcenterleft"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>-:<br></span></a></td><td class="hasTooltipcenterright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>VKontakte:<br></span></a></td><td class="hasTooltipright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Weibo:<br></span></a></td><td class="hasTooltipfarright"><a href=""><img src="" onerror="this.style.display='none'" width=auto height=auto style="max-width:100px; max-height:100px;"><span>Douban:<br></span></a></td></tr></tbody></table></center>
