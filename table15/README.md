@@ -36,6 +36,14 @@ Modules IMPLEMENTED :-
  ![image](https://user-images.githubusercontent.com/29069343/69004596-21530c80-093c-11ea-94d5-32a4cf78d06f.png)
  
  
+ ### Face mapping outputs<br/>
+ ![Image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/face_features.JPG)
+ 
+ ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/face_matching_hog.JPG)
+ 
+ ![Image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/vptree.JPG)
+ 
+ 
  ### cctv monitor
 <br />
  This actively monitors a online LIVE cctv link and makes a search database
