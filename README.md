@@ -24,7 +24,7 @@ train_dataset_cropped - the training data images </br>
 final_dataset_cropped - testing data images </br>
 
 Vpree - Vpree approach for training and testing to create embeddings</br>
-simple run the files present within the folder</br
+simple run the files present within the folder</br>
 
 face_eye_ears_mapping - holds a test image for te input to face_mappings.py file, which creates mappings for eyes nose ears as trains<br/>
 
