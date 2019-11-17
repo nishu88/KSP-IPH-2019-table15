@@ -1,5 +1,9 @@
 # India-Police-Hackathon-2019
 
+# EVALUATION TABLE MAPPING
+
+# LIST OF MATCHED FILES - https://docs.google.com/document/d/1UF5cFRAXYJnu-SjTGbprjOEAHKGbL2jKHS_1z-nb250/edit?usp=sharing
+
 
 facial recognition for missing person.txt has the entire synopsis of the project <br/>
 
