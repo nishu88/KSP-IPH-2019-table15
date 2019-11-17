@@ -40,7 +40,7 @@ Modules IMPLEMENTED :-
  
  Using HOG extrating the features from the nose, ears and eyes<br/>
  
- ![Image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/face_features.JPG)
+ ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/face_features.JPG)
  
  <br/>
  Using CNN to train and extract features and find the exact mapping the in test set<br/>
@@ -49,14 +49,14 @@ Modules IMPLEMENTED :-
  
  <br/>
  Outputs from VPtree method<br/>
- ![Image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/vptree.JPG)
+ ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/vptree.JPG)
  
  
  ### cctv monitor
 <br />
  This actively monitors a online LIVE cctv link and makes a search database
   
-  ![image](https://user-images.githubusercontent.com/29069343/69004616-75f68780-093c-11ea-8cb4-96d7173ec0e0.png)
+ ![image](https://user-images.githubusercontent.com/29069343/69004616-75f68780-093c-11ea-8cb4-96d7173ec0e0.png)
   
   
   ### Social media mapper (2nd part of problem statement)
