@@ -16,5 +16,12 @@ Modules IMPLEMENTED :-
   ![image](https://user-images.githubusercontent.com/29069343/69004616-75f68780-093c-11ea-8cb4-96d7173ec0e0.png)
   
   
+## Mobile Application based on Android And Flask
+
+In order to easily interface with the the facial detection, we created a mobile application on Android Platform, by which the user can upload the image to a server which will do the processing and fetch back the results. With the help of OKHTTP API which provides an easy framework for sending and receiving large objects over HTTP. The app asks the user to select the image of the missing person from the device. It then sends this to the server by asking the user the IPv4 Address and Port Number of the server. 
+
+To make it easily to process, we are using a python based Flask Server running on a particular port number on the server. On the server side, it fetches the file that has been sent and saves it. After this, with the help of Local Binary Patterns Histogram (LBPH) algorithm implemented in OpenCV, the procecss calculates the confidence and fetches the ID. In case it is unable to fetch any ID, it returns as "unknown". After this computation is done, it fetches the result back to the Android client.
+  
+  
  
  
