@@ -8,10 +8,19 @@
 facial recognition for missing person.txt has the entire synopsis of the project <br/>
 
 # HOW TO RUN <br/>
-The manin.ipynb file has the entire code for training and testing
+The manin.ipynb file has the entire code for training and testing<br/>
 Every cell is commented to explain what each cell does </br>
 
 The cells run  datacropping, facial feature extraction, training using cnn, and testing on the embeddings<br/>
+
+
+
+Cell 1 - Runs the data crop, applies opencv techniques and find the face within the picture and crops it <br/>
+Cell 2 - Runs renaming of the file to suitable way <br/>
+Cell 3 - Runs facial extraction using LBHP and HOG, and extracts the features using CNN <br/>
+Cell 4 - Runs the testing of image and finds the most closest match from the test folder <br/>
+
+
 
 ## Libraries Used
 
