@@ -1,17 +1,44 @@
 # India-Police-Hackathon-2019
 
+
+Synopsis.txt has the entire synopsis of the project <br/>
+
+# HOW TO RUN <br/>
+The manin.ipynb file has the entire code for training and testing
+Every cell is commented to explain what each cell does </br>
+
+The cells run  datacropping, facial feature extraction, training using cnn, and testing on the embeddings<br/>
+
+## Folder descriptions
+
+train_dataset_cropped - the training data images </br>
+final_dataset_cropped - testing data images </br>
+
+Vpree - Vpree approach for training and testing to create embeddings</br>
+simple run the files present within the folder</br
+
+face_eye_ears_mapping - holds a test image for te input to face_mappings.py file, which creates mappings for eyes nose ears as trains<br/>
+
+face_recogntion - training using CNN approach <br/>
+
+## File descriptions
+data_rename.py - Run to rename image datasets to specific requirement <br/>
+face_detection_and_crop - To detect faces and crops them and stores <br/>
+
+
+
 Modules IMPLEMENTED :-
 
 ### Extracting face from data
 <br />
- this crops the image to focus only on the facial features of a person
+ This crops the image to focus only on the facial features of a person
  
  ![image](https://user-images.githubusercontent.com/29069343/69004596-21530c80-093c-11ea-94d5-32a4cf78d06f.png)
  
  
  ### cctv monitor
 <br />
-  this actively monitors a online LIVE cctv link and makes a search database
+ This actively monitors a online LIVE cctv link and makes a search database
   
   ![image](https://user-images.githubusercontent.com/29069343/69004616-75f68780-093c-11ea-8cb4-96d7173ec0e0.png)
   
