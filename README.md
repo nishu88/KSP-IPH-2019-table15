@@ -9,26 +9,6 @@ Modules IMPLEMENTED :-
  ![image](https://user-images.githubusercontent.com/29069343/69004596-21530c80-093c-11ea-94d5-32a4cf78d06f.png)
  
  
- ### face_eye_ears mapping
- <br />
-  this considers only important parts of the face a highlights them
-  
-  ![face_features](https://user-images.githubusercontent.com/29069343/69004714-fb2e6c00-093d-11ea-8c4b-9c3651fcad68.JPG)
- 
- 
- ### face_recognition using police database and mapping MISSING with ARRESTED/WANTED
-  <br />
-   this maps missing and arrested with 70-80% accuracy
-   
-   ![face_matching_hog](https://user-images.githubusercontent.com/29069343/69004755-55c7c800-093e-11ea-8f3d-cb9173e328bb.JPG)
-   
-   ![vptree](https://user-images.githubusercontent.com/29069343/69004758-5ceed600-093e-11ea-81b5-53cac0a72452.JPG)
-   
-   ![webcam recognition](https://user-images.githubusercontent.com/29069343/69004760-637d4d80-093e-11ea-9349-ba8e8a81338e.png)
-   
-   
- 
- 
  ### cctv monitor
 <br />
   this actively monitors a online LIVE cctv link and makes a search database
@@ -52,6 +32,9 @@ To make it easily to process, we are using a python based Flask Server running o
 ![image](https://user-images.githubusercontent.com/29069343/69004691-9115c700-093d-11ea-82ea-4efa4ca484bf.png)
 
 ![image](https://user-images.githubusercontent.com/29069343/69004696-abe83b80-093d-11ea-95ac-37f124514802.png)
+
+## Social Media Search
+With the help of social media search, we can easily search for people on social media platforms. Our mapper uses Facebook's existing APIs which takes the name and image of the missing person as an input. For using this API we must pass our facebook credentials as parameters to the API in order to fetch results. We get results in the form of a table embedded insisde an HTML file, using Django framework. Each row of the table contains the profile pic on facebook, name of the person and the profile link.
 
 
 
