@@ -9,6 +9,15 @@ Every cell is commented to explain what each cell does </br>
 
 The cells run  datacropping, facial feature extraction, training using cnn, and testing on the embeddings<br/>
 
+## Libraries Used
+
+* OpenCV
+* Numpy
+* Pandas
+* BeautifulSoup4
+* Flask
+* Matplotlib
+
 ## Folder descriptions
 
 train_dataset_cropped - the training data images </br>
