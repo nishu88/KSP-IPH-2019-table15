@@ -18,7 +18,8 @@ Modules IMPLEMENTED :-
   
   ### Social media mapper (2nd part of problem statement)
  <br />
-  this searches for a person on social media by considering his preprocessed image and his name,age,place obtained from the police records
+  
+With the help of social media search, we can easily search for people on social media platforms. Our mapper uses Facebook's existing APIs which takes the name and image of the missing person as an input. For using this API we must pass our facebook credentials as parameters to the API in order to fetch results. We get results in the form of a table embedded insisde an HTML file, using Django framework. Each row of the table contains the profile pic on facebook, name of the person and the profile link.
   
   ![result](https://user-images.githubusercontent.com/29069343/69004652-ffa65500-093c-11ea-81aa-e8b4b209e63b.png)
   
@@ -33,8 +34,6 @@ To make it easily to process, we are using a python based Flask Server running o
 
 ![image](https://user-images.githubusercontent.com/29069343/69004696-abe83b80-093d-11ea-95ac-37f124514802.png)
 
-## Social Media Search
-With the help of social media search, we can easily search for people on social media platforms. Our mapper uses Facebook's existing APIs which takes the name and image of the missing person as an input. For using this API we must pass our facebook credentials as parameters to the API in order to fetch results. We get results in the form of a table embedded insisde an HTML file, using Django framework. Each row of the table contains the profile pic on facebook, name of the person and the profile link.
 
 
 
