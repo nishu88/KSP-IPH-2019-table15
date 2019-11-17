@@ -49,6 +49,7 @@ Used LBHP with the CNN model to extract the histogram values and the hamming dis
  
  <br/>
  Outputs from VPtree method
+ 
  ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/vptree.JPG)
  
  
