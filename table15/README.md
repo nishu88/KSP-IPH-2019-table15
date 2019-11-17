@@ -38,17 +38,17 @@ Modules IMPLEMENTED :-
  
  ### Face mapping outputs<br/>
  
- Using HOG extrating the features from the nose, ears and eyes<br/>
- 
+ Using HOG extrating the features from the nose, ears and eyes
  ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/face_features.JPG)
  
- <br/>
- Using CNN to train and extract features and find the exact mapping the in test set<br/>
- Used LBHP with the CNN model to extract the histogram values and the hamming distance between each image embedding is used to compare the closeness of the image<br/>
+ 
+ 
+Using CNN to train and extract features and find the exact mapping the in test set<br/>
+Used LBHP with the CNN model to extract the histogram values and the hamming distance between each image embedding is used to compare    the closeness of the image
  ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/face_matching_hog.JPG)
  
  <br/>
- Outputs from VPtree method<br/>
+ Outputs from VPtree method
  ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/vptree.JPG)
  
  
