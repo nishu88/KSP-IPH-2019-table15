@@ -1,20 +1,11 @@
 # India-Police-Hackathon-2019
 
+
 facial recognition for missing person.txt has the entire synopsis of the project <br/>
 
 # HOW TO RUN <br/>
 The manin.ipynb file has the entire code for training and testing
 Every cell is commented to explain what each cell does </br>
-
-<br/>
-Open main.ipynb file and run,<br/>
-
-The cells run as follows- <br/>
-1st Cell - datacropping with facial recognition<br/>
-2nd Cell - Used to perform facial face detection and feature extracton<br/>
-3rd Cell - runs the training model, to create embeddings for the input images<br/>
-4th Cell - Used for predicting closest match among the test pictures and plot accuracy curve<br/>
-
 
 The cells run  datacropping, facial feature extraction, training using cnn, and testing on the embeddings<br/>
 
@@ -24,7 +15,7 @@ train_dataset_cropped - the training data images </br>
 final_dataset_cropped - testing data images </br>
 
 Vpree - Vpree approach for training and testing to create embeddings</br>
-simple run the files present within the folder</br>
+simple run the files present within the folder</br
 
 face_eye_ears_mapping - holds a test image for te input to face_mappings.py file, which creates mappings for eyes nose ears as trains<br/>
 
@@ -35,23 +26,37 @@ data_rename.py - Run to rename image datasets to specific requirement <br/>
 face_detection_and_crop - To detect faces and crops them and stores <br/>
 
 
-<br/>
-Other pythin files are derived from this jupyter notebook itself<br/>
 
 Modules IMPLEMENTED :-
 
 ### Extracting face from data
 <br />
- this crops the image to focus only on the facial features of a person
+ This crops the image to focus only on the facial features of a person
  
  ![image](https://user-images.githubusercontent.com/29069343/69004596-21530c80-093c-11ea-94d5-32a4cf78d06f.png)
  
  
+ ### Face mapping outputs<br/>
+ 
+ Using HOG extrating the features from the nose, ears and eyes
+ ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/face_features.JPG)
+ 
+ 
+ 
+Using CNN to train and extract features and find the exact mapping the in test set<br/>
+Used LBHP with the CNN model to extract the histogram values and the hamming distance between each image embedding is used to compare    the closeness of the image
+ ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/face_matching_hog.JPG)
+ 
+ <br/>
+ Outputs from VPtree method
+ ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/vptree.JPG)
+ 
+ 
  ### cctv monitor
 <br />
-  this actively monitors a online LIVE cctv link and makes a search database
+ This actively monitors a online LIVE cctv link and makes a search database
   
-  ![image](https://user-images.githubusercontent.com/29069343/69004616-75f68780-093c-11ea-8cb4-96d7173ec0e0.png)
+ ![image](https://user-images.githubusercontent.com/29069343/69004616-75f68780-093c-11ea-8cb4-96d7173ec0e0.png)
   
   
   ### Social media mapper (2nd part of problem statement)
@@ -71,9 +76,6 @@ To make it easily to process, we are using a python based Flask Server running o
 ![image](https://user-images.githubusercontent.com/29069343/69004691-9115c700-093d-11ea-82ea-4efa4ca484bf.png)
 
 ![image](https://user-images.githubusercontent.com/29069343/69004696-abe83b80-093d-11ea-95ac-37f124514802.png)
-
-
-
 
 
 
