@@ -12,6 +12,7 @@ Modules IMPLEMENTED :-
  ### face_eye_ears mapping
  <br />
   this considers only important parts of the face a highlights them
+  
   ![face_features](https://user-images.githubusercontent.com/29069343/69004714-fb2e6c00-093d-11ea-8c4b-9c3651fcad68.JPG)
  
  
