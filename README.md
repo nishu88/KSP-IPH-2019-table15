@@ -9,6 +9,25 @@ Modules IMPLEMENTED :-
  ![image](https://user-images.githubusercontent.com/29069343/69004596-21530c80-093c-11ea-94d5-32a4cf78d06f.png)
  
  
+ ### face_eye_ears mapping
+ <br />
+  this considers only important parts of the face a highlights them
+  ![face_features](https://user-images.githubusercontent.com/29069343/69004714-fb2e6c00-093d-11ea-8c4b-9c3651fcad68.JPG)
+ 
+ 
+ ### face_recognition using police database and mapping MISSING with ARRESTED/WANTED
+  <br />
+   this maps missing and arrested with 70-80% accuracy
+   
+   ![face_matching_hog](https://user-images.githubusercontent.com/29069343/69004755-55c7c800-093e-11ea-8f3d-cb9173e328bb.JPG)
+   
+   ![vptree](https://user-images.githubusercontent.com/29069343/69004758-5ceed600-093e-11ea-81b5-53cac0a72452.JPG)
+   
+   ![webcam recognition](https://user-images.githubusercontent.com/29069343/69004760-637d4d80-093e-11ea-9349-ba8e8a81338e.png)
+   
+   
+ 
+ 
  ### cctv monitor
 <br />
   this actively monitors a online LIVE cctv link and makes a search database
