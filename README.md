@@ -36,6 +36,18 @@ To make it easily to process, we are using a python based Flask Server running o
 
 
 
+## Running 
+<br/>
+Open main.ipynb file and run,
+
+The cells run as follows- 
+1st Cell - datacropping with facial recognition
+2nd Cell - Used to perform facial face detection and feature extracton
+3rd Cell - runs the training model, to create embeddings for the input images
+4th Cell - Used for predicting closest match among the test pictures and plot accuracy curve
+
+
+
 
  
  
