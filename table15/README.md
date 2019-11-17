@@ -1,5 +1,9 @@
 # India-Police-Hackathon-2019
 
+# EVALUATION TABLE MAPPING
+
+# LIST OF MATCHED FILES - https://docs.google.com/document/d/1UF5cFRAXYJnu-SjTGbprjOEAHKGbL2jKHS_1z-nb250/edit?usp=sharing
+
 
 facial recognition for missing person.txt has the entire synopsis of the project <br/>
 
@@ -8,6 +12,15 @@ The manin.ipynb file has the entire code for training and testing
 Every cell is commented to explain what each cell does </br>
 
 The cells run  datacropping, facial feature extraction, training using cnn, and testing on the embeddings<br/>
+
+## Libraries Used
+
+* OpenCV
+* Numpy
+* Pandas
+* BeautifulSoup4
+* Flask
+* Matplotlib
 
 ## Folder descriptions
 
@@ -49,7 +62,6 @@ Used LBHP with the CNN model to extract the histogram values and the hamming dis
  
  <br/>
  Outputs from VPtree method
- 
  ![image](https://github.com/nishu88/KSP-IPH-2019-table15/blob/master/table15/Outputs/vptree.JPG)
  
  
