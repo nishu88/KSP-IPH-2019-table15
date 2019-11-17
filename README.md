@@ -1,7 +1,11 @@
 # India-Police-Hackathon-2019
 
+facial recognition for missing person.txt has the entire synopsis of the project <br/>
 
-## Running 
+# HOW TO RUN <br/>
+The manin.ipynb file has the entire code for training and testing
+Every cell is commented to explain what each cell does </br>
+
 <br/>
 Open main.ipynb file and run,<br/>
 
@@ -10,6 +14,26 @@ The cells run as follows- <br/>
 2nd Cell - Used to perform facial face detection and feature extracton<br/>
 3rd Cell - runs the training model, to create embeddings for the input images<br/>
 4th Cell - Used for predicting closest match among the test pictures and plot accuracy curve<br/>
+
+
+The cells run  datacropping, facial feature extraction, training using cnn, and testing on the embeddings<br/>
+
+## Folder descriptions
+
+train_dataset_cropped - the training data images </br>
+final_dataset_cropped - testing data images </br>
+
+Vpree - Vpree approach for training and testing to create embeddings</br>
+simple run the files present within the folder</br
+
+face_eye_ears_mapping - holds a test image for te input to face_mappings.py file, which creates mappings for eyes nose ears as trains<br/>
+
+face_recogntion - training using CNN approach <br/>
+
+## File descriptions
+data_rename.py - Run to rename image datasets to specific requirement <br/>
+face_detection_and_crop - To detect faces and crops them and stores <br/>
+
 
 <br/>
 Other pythin files are derived from this jupyter notebook itself<br/>
